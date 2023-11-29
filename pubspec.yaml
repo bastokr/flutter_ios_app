@@ -1,0 +1,41 @@
+name: kwon_s_application9
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  pin_code_fields: ^7.3.0
+  flutter_svg_provider: ^1.0.3
+  sms_autofill: ^2.0.0
+  readmore: ^2.1.0
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Sora
+      fonts: 
+        - asset: assets/fonts/SoraSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SoraRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
