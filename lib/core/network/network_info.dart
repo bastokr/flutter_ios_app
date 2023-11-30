@@ -1,4 +1,5 @@
-import 'package:connectivity_plus/connectivity_plus.dart';
+
+/*import 'package:connectivity_plus/connectivity_plus.dart';
 
 // For checking internet connectivity
 abstract class NetworkInfoI {
@@ -39,3 +40,4 @@ class NetworkInfo implements NetworkInfoI {
   Stream<ConnectivityResult> get onConnectivityChanged =>
       connectivity.onConnectivityChanged;
 }
+*/

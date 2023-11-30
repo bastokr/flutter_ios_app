@@ -1,4 +1,4 @@
-export 'package:connectivity_plus/connectivity_plus.dart';
+//export 'package:connectivity_plus/connectivity_plus.dart';
 export 'package:kwon_s_application9/core/constants/constants.dart';
 export 'package:kwon_s_application9/core/errors/exceptions.dart';
 export 'package:kwon_s_application9/core/network/network_info.dart';
