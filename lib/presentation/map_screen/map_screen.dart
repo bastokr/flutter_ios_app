@@ -1,9 +1,9 @@
 import 'controller/map_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg_provider/flutter_svg_provider.dart' as fs;
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/widgets/custom_icon_button.dart';
-import 'package:kwon_s_application9/widgets/custom_pin_code_text_field.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/widgets/custom_icon_button.dart';
+import 'package:isoflutterapp/widgets/custom_pin_code_text_field.dart';
 
 // ignore_for_file: must_be_immutable
 class MapScreen extends GetWidget<MapController> {

@@ -1,6 +1,6 @@
 import 'controller/home_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kwon_s_application9/core/app_export.dart';
+import 'package:isoflutterapp/core/app_export.dart';
 
 // ignore_for_file: must_be_immutable
 class HomeScreen extends GetWidget<HomeController> {

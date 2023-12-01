@@ -1,5 +1,5 @@
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/presentation/app_navigation_screen/models/app_navigation_model.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/presentation/app_navigation_screen/models/app_navigation_model.dart';
 
 /// A controller class for the AppNavigationScreen.
 ///

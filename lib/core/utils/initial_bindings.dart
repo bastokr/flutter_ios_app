@@ -1,5 +1,5 @@
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/data/apiClient/api_client.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/data/apiClient/api_client.dart';
 
 class InitialBindings extends Bindings {
   @override

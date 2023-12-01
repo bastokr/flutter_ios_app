@@ -1130,4 +1130,4 @@ class TypeMessage {
   static const sticker = 2;
   static const video = 4;
 }
-*/
+ */

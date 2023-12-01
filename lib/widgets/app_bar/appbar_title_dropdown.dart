@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/widgets/custom_drop_down.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/widgets/custom_drop_down.dart';
 
 // ignore: must_be_immutable
 class AppbarTitleDropdown extends StatelessWidget {

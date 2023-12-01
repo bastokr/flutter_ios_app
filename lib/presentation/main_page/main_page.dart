@@ -1,3 +1,5 @@
+import 'package:webview_flutter/webview_flutter.dart';
+
 import '../main_page/widgets/maingrid_item_widget.dart';
 import '../main_page/widgets/mainlist_item_widget.dart';
 import 'controller/main_controller.dart';
@@ -5,13 +7,13 @@ import 'models/main_model.dart';
 import 'models/maingrid_item_model.dart';
 import 'models/mainlist_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/widgets/app_bar/appbar_subtitle.dart';
-import 'package:kwon_s_application9/widgets/app_bar/appbar_title_dropdown.dart';
-import 'package:kwon_s_application9/widgets/app_bar/appbar_trailing_image.dart';
-import 'package:kwon_s_application9/widgets/app_bar/custom_app_bar.dart';
-import 'package:kwon_s_application9/widgets/custom_elevated_button.dart';
-import 'package:kwon_s_application9/widgets/custom_search_view.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/widgets/app_bar/appbar_subtitle.dart';
+import 'package:isoflutterapp/widgets/app_bar/appbar_title_dropdown.dart';
+import 'package:isoflutterapp/widgets/app_bar/appbar_trailing_image.dart';
+import 'package:isoflutterapp/widgets/app_bar/custom_app_bar.dart';
+import 'package:isoflutterapp/widgets/custom_elevated_button.dart';
+import 'package:isoflutterapp/widgets/custom_search_view.dart';
 
 class MainPage extends StatelessWidget {
   MainPage({Key? key})
@@ -202,6 +204,11 @@ class MainPage extends StatelessWidget {
                                       ),
                                     ),
                                   ),
+                                  SizedBox(
+                                      height: 130,
+                                      child: WebViewWidget(
+                                          controller:
+                                              controller.webcontroller)),
                                 ],
                               ),
                             ),

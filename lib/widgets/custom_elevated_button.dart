@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/widgets/base_button.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/widgets/base_button.dart';
 
 class CustomElevatedButton extends BaseButton {
   CustomElevatedButton({

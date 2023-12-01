@@ -1,15 +1,15 @@
-import 'package:kwon_s_application9/presentation/map_screen/map_screen.dart';
-import 'package:kwon_s_application9/presentation/map_screen/binding/map_binding.dart';
-import 'package:kwon_s_application9/presentation/home_screen/home_screen.dart';
-import 'package:kwon_s_application9/presentation/home_screen/binding/home_binding.dart';
-import 'package:kwon_s_application9/presentation/main_container_screen/main_container_screen.dart';
-import 'package:kwon_s_application9/presentation/main_container_screen/binding/main_container_binding.dart';
-import 'package:kwon_s_application9/presentation/detail_screen/detail_screen.dart';
-import 'package:kwon_s_application9/presentation/detail_screen/binding/detail_binding.dart';
-import 'package:kwon_s_application9/presentation/order_screen/order_screen.dart';
-import 'package:kwon_s_application9/presentation/order_screen/binding/order_binding.dart';
-import 'package:kwon_s_application9/presentation/app_navigation_screen/app_navigation_screen.dart';
-import 'package:kwon_s_application9/presentation/app_navigation_screen/binding/app_navigation_binding.dart';
+import 'package:isoflutterapp/presentation/map_screen/map_screen.dart';
+import 'package:isoflutterapp/presentation/map_screen/binding/map_binding.dart';
+import 'package:isoflutterapp/presentation/home_screen/home_screen.dart';
+import 'package:isoflutterapp/presentation/home_screen/binding/home_binding.dart';
+import 'package:isoflutterapp/presentation/main_container_screen/main_container_screen.dart';
+import 'package:isoflutterapp/presentation/main_container_screen/binding/main_container_binding.dart';
+import 'package:isoflutterapp/presentation/detail_screen/detail_screen.dart';
+import 'package:isoflutterapp/presentation/detail_screen/binding/detail_binding.dart';
+import 'package:isoflutterapp/presentation/order_screen/order_screen.dart';
+import 'package:isoflutterapp/presentation/order_screen/binding/order_binding.dart';
+import 'package:isoflutterapp/presentation/app_navigation_screen/app_navigation_screen.dart';
+import 'package:isoflutterapp/presentation/app_navigation_screen/binding/app_navigation_binding.dart';
 import 'package:get/get.dart';
 
 class AppRoutes {

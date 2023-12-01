@@ -1,4 +1,4 @@
-import 'package:kwon_s_application9/data/models/selectionPopupModel/selection_popup_model.dart';
+import 'package:isoflutterapp/data/models/selectionPopupModel/selection_popup_model.dart';
 import '../../../core/app_export.dart';
 import 'mainlist_item_model.dart';
 import 'maingrid_item_model.dart';

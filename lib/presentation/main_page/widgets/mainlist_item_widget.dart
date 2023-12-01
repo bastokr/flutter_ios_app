@@ -1,7 +1,7 @@
 import '../controller/main_controller.dart';
 import '../models/mainlist_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kwon_s_application9/core/app_export.dart';
+import 'package:isoflutterapp/core/app_export.dart';
 
 // ignore: must_be_immutable
 class MainlistItemWidget extends StatelessWidget {

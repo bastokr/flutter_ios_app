@@ -1,8 +1,8 @@
 import 'controller/main_container_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/presentation/main_page/main_page.dart';
-import 'package:kwon_s_application9/widgets/custom_bottom_bar.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/presentation/main_page/main_page.dart';
+import 'package:isoflutterapp/widgets/custom_bottom_bar.dart';
 
 class MainContainerScreen extends GetWidget<MainContainerController> {
   const MainContainerScreen({Key? key}) : super(key: key);

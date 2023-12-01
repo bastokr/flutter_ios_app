@@ -1,8 +1,8 @@
 import '../controller/main_controller.dart';
 import '../models/maingrid_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/widgets/custom_icon_button.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/widgets/custom_icon_button.dart';
 
 // ignore: must_be_immutable
 class MaingridItemWidget extends StatelessWidget {

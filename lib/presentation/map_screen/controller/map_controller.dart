@@ -1,5 +1,5 @@
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/presentation/map_screen/models/map_model.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/presentation/map_screen/models/map_model.dart';
 import 'package:sms_autofill/sms_autofill.dart';
 import 'package:flutter/material.dart';
 

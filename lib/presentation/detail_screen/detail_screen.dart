@@ -1,12 +1,12 @@
 import 'controller/detail_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:kwon_s_application9/core/app_export.dart';
-import 'package:kwon_s_application9/widgets/app_bar/appbar_leading_image.dart';
-import 'package:kwon_s_application9/widgets/app_bar/appbar_title.dart';
-import 'package:kwon_s_application9/widgets/app_bar/appbar_trailing_image.dart';
-import 'package:kwon_s_application9/widgets/app_bar/custom_app_bar.dart';
-import 'package:kwon_s_application9/widgets/custom_elevated_button.dart';
-import 'package:kwon_s_application9/widgets/custom_icon_button.dart';
+import 'package:isoflutterapp/core/app_export.dart';
+import 'package:isoflutterapp/widgets/app_bar/appbar_leading_image.dart';
+import 'package:isoflutterapp/widgets/app_bar/appbar_title.dart';
+import 'package:isoflutterapp/widgets/app_bar/appbar_trailing_image.dart';
+import 'package:isoflutterapp/widgets/app_bar/custom_app_bar.dart';
+import 'package:isoflutterapp/widgets/custom_elevated_button.dart';
+import 'package:isoflutterapp/widgets/custom_icon_button.dart';
 import 'package:readmore/readmore.dart';
 
 // ignore_for_file: must_be_immutable
