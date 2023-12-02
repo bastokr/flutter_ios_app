@@ -11,6 +11,7 @@ import 'package:isoflutterapp/presentation/order_screen/binding/order_binding.da
 import 'package:isoflutterapp/presentation/app_navigation_screen/app_navigation_screen.dart';
 import 'package:isoflutterapp/presentation/app_navigation_screen/binding/app_navigation_binding.dart';
 import 'package:get/get.dart';
+import 'package:isoflutterapp/webrtc/call/webrtcCall.dart';
 
 class AppRoutes {
   static const String mapScreen = '/map_screen';
@@ -28,6 +29,8 @@ class AppRoutes {
   static const String appNavigationScreen = '/app_navigation_screen';
 
   static const String initialRoute = '/initialRoute';
+
+  static const String webrtcCall = '/webrtc_call';
 
   static List<GetPage> pages = [
     GetPage(
@@ -78,6 +81,12 @@ class AppRoutes {
       bindings: [
         MapBinding(),
       ],
+    ),
+    GetPage(
+      name: initialRoute,
+      page: () => WebrtcCall(
+        host: '',
+      ),
     )
   ];
 }

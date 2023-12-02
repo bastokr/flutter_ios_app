@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:isoflutterapp/webrtc/call/webrtcCall.dart';
 
 import 'core/app_export.dart';
 
@@ -14,6 +15,26 @@ void main() {
   });
 }
 
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: WebrtcCall(host: '125.176.147.175'));
+  }
+}
+   
+/*
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -31,3 +52,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+*/
