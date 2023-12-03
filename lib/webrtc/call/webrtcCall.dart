@@ -27,19 +27,18 @@ class _CallSampleState extends State<WebrtcCall> {
   Session? _session;
   DesktopCapturerSource? selected_source_;
   bool _waitAccept = false;
-  // late WebViewController webViewController;
+  late WebViewController webViewController = WebViewController();
   // ignore: unused_element
   _CallSampleState();
 
   @override
   initState() {
-    // webViewController = WebViewController();
     super.initState();
     initRenderers();
     _connect(context);
+    getWebViewController();
   }
 
-/*
   getWebViewController() {
     late final PlatformWebViewControllerCreationParams params;
     if (WebViewPlatform.instance is WebKitWebViewPlatform) {
@@ -80,7 +79,7 @@ class _CallSampleState extends State<WebrtcCall> {
           .setMediaPlaybackRequiresUserGesture(false);
     }
   }
-*/
+
   initRenderers() async {
     await _localRenderer.initialize();
     await _remoteRenderer.initialize();
@@ -395,11 +394,19 @@ class _CallSampleState extends State<WebrtcCall> {
                       decoration: BoxDecoration(color: Colors.black54),
                     ),
                   ),
-                  /*
-                  SizedBox(
-                      height: 130,
-                      child: WebViewWidget(controller: webViewController)),
-                      */
+                  Positioned(
+                    left: 20.0,
+                    bottom: 20.0,
+                    child: Container(
+                      width: orientation == Orientation.portrait ? 90.0 : 120.0,
+                      height:
+                          orientation == Orientation.portrait ? 120.0 : 90.0,
+                      child: SizedBox(
+                          height: 130,
+                          child: WebViewWidget(controller: webViewController)),
+                      decoration: BoxDecoration(color: Colors.black54),
+                    ),
+                  ),
                 ]),
               );
             })

@@ -308,6 +308,7 @@ class Signaling {
     _socket?.onMessage = (message) {
       print('Received data: ' + message);
       onMessage(_decoder.convert(message));
+      SseConnect().onMessage(message);
     };
 
     _socket?.onClose = (int? code, String? reason) {
@@ -540,13 +541,13 @@ class Signaling {
     }
   }
 
-  _send(event, data) {
+  _send(event, data) async {
     var request = Map();
     request["type"] = event;
     request["data"] = data;
     _socket?.send(_encoder.convert(request));
 
-    sseConnect.send(_encoder.convert(request));
+    await sseConnect.send(_encoder.convert(request));
   }
 
   Future<void> _cleanSessions() async {
