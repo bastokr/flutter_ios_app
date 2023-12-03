@@ -43,7 +43,10 @@ class Session {
 }
 
 class Signaling {
-  Signaling(this._host, this._context, this.webViewController);
+  Signaling(
+    this._host,
+    this._context,
+  );
 
   JsonEncoder _encoder = JsonEncoder();
   JsonDecoder _decoder = JsonDecoder();
@@ -51,7 +54,6 @@ class Signaling {
   SimpleWebSocket? _socket;
   BuildContext? _context;
 
-  WebViewController? webViewController;
   SseConnect sseConnect = SseConnect();
   var _host;
   var _port = 8086;

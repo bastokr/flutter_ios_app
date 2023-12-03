@@ -136,7 +136,10 @@ class _DataChannelSampleState extends State<DataChannelSample> {
   }
 
   void _connect(BuildContext context) async {
-    _signaling ??= Signaling(widget.host, context, webcontroller)..connect();
+    _signaling ??= Signaling(
+      widget.host,
+      context,
+    )..connect();
 
     _signaling?.onDataChannelMessage = (_, dc, RTCDataChannelMessage data) {
       setState(() {
